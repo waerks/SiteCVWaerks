@@ -1,0 +1,29 @@
+@media (min-width : 1024px) {
+
+    .bento {
+
+        .divLeft {
+            height: 700px;
+
+            .divOne {
+                height: calc(50% - 10px);
+                width: calc(60% - 10px);
+            }
+
+            .divTwo {
+                height: calc(50% - 10px);
+                width: calc(40% - 10px);
+            }
+
+            .divThree {
+                height: calc(50% - 10px);
+                width: calc(40% - 10px);
+            }
+
+            .divFour {
+                height: calc(50% - 10px);
+                width: calc(60% - 10px);
+            }
+        }
+    }
+}

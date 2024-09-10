@@ -1,0 +1,45 @@
+@media (min-width : 1280px) {
+
+    .bento {
+        flex-direction: row;
+        height: calc(90vh - 20px);
+
+        .divLeft {
+            width: 65%;
+            height: 100%;
+
+            .divOne {
+                height: calc(50% - 10px);
+                width: calc(60% - 10px);
+            }
+
+            .divTwo {
+                height: calc(50% - 10px);
+                width: calc(40% - 10px);
+            }
+
+            .divThree {
+                height: calc(50% - 10px);
+                width: calc(40% - 10px);
+            }
+
+            .divFour {
+                height: calc(50% - 10px);
+                width: calc(60% - 10px);
+            }
+        }
+
+        .divRight {
+            width: 35%;
+            height: 100%;
+
+            .divFive {
+                min-height: calc(90.3% - 20px);
+            }
+
+            .divSix {
+                height: 10%;
+            }
+        }
+    }
+}
